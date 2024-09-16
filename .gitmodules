@@ -1,0 +1,3 @@
+[submodule "src/behavior_tree_stack"]
+	path = src/behavior_tree_stack
+	url = https://github.com/FraunhoferItalia/behavior_tree_stack
