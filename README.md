@@ -6,7 +6,36 @@ Author: [Michael Terzer](michael.terzer@fraunhofer.it) Fraunhofer Italia 2023
 
 This workspace includes the mission tasks modelling and parametrization tools developed within the CONCERT project. The  repository comes with a docker setup which inherits from the `fhi_mission_stack:release` and thus can access the robotic skill library from the fhi_mission_stack. Application specific skills for the CONCERT project are hosted in this workspace.
 
+## Installation
+
+1. Clone this repository:
+   
+   ```
+   https://github.com/FraunhoferItalia/concert_mission_ws/
+   ```
+
+2.  Download the submodule behavior_tree_stack
+   
+   ```
+   git submodule update --init --recursive
+   ```
+
+3. Download the dependencies inside behavior_tree_stack:
+   
+   ```
+   cd src/behavior_tree_stack
+   vcs import < .repos
+   ```
+
+4. Build the docker image:
+   
+   ```
+   docker compose up --build
+   ```
+
 ## How to run
+
+First, open up a shell in the running docker image, and build the workspace: `colcon build`.
 
 The bt_action_server is the application that runs a ROS2 action server and recieves a BehaviorTreeDescriptor request to run a behavior tree through the bt_executor. Run the bt_action_server:
 
@@ -30,5 +59,3 @@ note = {to be published}
 publisher={IEEE}
 }
 ```
-
-
