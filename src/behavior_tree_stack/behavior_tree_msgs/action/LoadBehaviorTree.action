@@ -1,9 +1,0 @@
-# Service for loading a behavior tree and its blackboard
-BehaviorTreeDescriptor tree
----
-bool success
-string message
----
-float32 execution_time
-
-
