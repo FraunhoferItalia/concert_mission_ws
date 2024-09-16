@@ -1,0 +1,21 @@
+concert_mission:
+  commands:
+    build:
+      subcommands: rbuild
+    bringup:
+      subcommands:
+        - ros2 launch bt_action_server send_bt_action_server.launch.py
+        - ros2 launch tf_manager tf_manager.launch.py
+        - ros2 launch parameter_profiles_manager bringup.launch.py config_file:=/concert_mission_ws/config/parameter_profiles_manager/profiles.yaml
+        - python3 src/move_until_contact_handler.py
+
+    parameter_profiles_manager:
+      subcommands:
+        - ros2 launch parameter_profiles_manager bringup.launch.py config_file:=/concert_mission_ws/config/parameter_profiles_manager/{{ profile_file }}
+      args:
+        profile_file: profiles.yaml
+
+  volumes:
+    configuration:
+      type: folder
+      destination: ../config

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<root>
+    <TreeNodesModel>
+        <Action ID="std_skills::packers::Pose">
+            <input_port name="x">x</input_port>
+            <input_port name="y">y</input_port>
+            <input_port name="z">z</input_port>
+            <input_port name="Rx">Rx</input_port>
+            <input_port name="Ry">Ry</input_port>
+            <input_port name="Rz">Rz</input_port>
+            <input_port name="Rw">Rw</input_port>
+            <output_port name="pose">pose</output_port>
+        </Action>
+    </TreeNodesModel>
+</root>

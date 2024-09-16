@@ -1,0 +1,5 @@
+<library path="libfhi_skills">
+  <class type="fhi_skills::SkillLibrary" base_class_type="bt_skill::SkillLibraryBase">
+    <description>Fhi msgs skill library.</description>
+  </class>
+</library>

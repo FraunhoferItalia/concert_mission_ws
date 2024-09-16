@@ -1,0 +1,5 @@
+<library path="libnav2_skills">
+  <class type="nav2_skills::SkillLibrary" base_class_type="bt_skill::SkillLibraryBase">
+    <description>Behavior Tree Plugin for nav2.</description>
+  </class>
+</library>

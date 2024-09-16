@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<root>
+    <TreeNodesModel>
+        <Action ID="concert_skills::MoveUntilContact">
+            <input_port name="motion_direction"></input_port>
+            <input_port name="force"></input_port>
+            <input_port name="speed"></input_port>
+            <input_port name="max_distance"></input_port>
+            <input_port name="timeout_sec"></input_port>
+            <input_port name="action_name"></input_port>
+        </Action>
+    </TreeNodesModel>
+</root>

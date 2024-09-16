@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<root>
+    <TreeNodesModel>
+        <Action ID="std_skills::packers::TransformStamped">
+            <input_port name="parent_frame_id">parent_frame_id</input_port>
+            <input_port name="child_frame_id">child_frame_id</input_port>
+            <input_port name="transform">transform</input_port>
+            <output_port name="output">output transform_stamped</output_port>
+        </Action>
+    </TreeNodesModel>
+</root>

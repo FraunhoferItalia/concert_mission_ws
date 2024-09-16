@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>concert_skills</name>
+  <version>1.0.0</version>
+  <description>Package for interacting with ROSBIM for creating behavior trees</description>
+
+  <author email="michael.terzer@fraunhofer.it">Michael Terzer</author>
+  <maintainer email="michael.terzer@fraunhofer.it">Michael Terzer</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>bt_executor</depend>
+  <depend>pluginlib</depend>
+  <depend>behaviortree_cpp</depend>
+  <depend>behaviortree_ros2</depend>
+  <depend>concert_msgs</depend>
+  <depend>behavior_tree_msgs</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <fhi_skills plugin="plugins.xml" />
+    <fhi_skills config="config/move_until_contact.xml" />
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

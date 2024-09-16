@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<root>
+    <TreeNodesModel>
+        <Action ID="std_skills::unpackers::TransformStamped">
+            <input_port name="transform_stamped">transform_stamped</input_port>
+            <output_port name="frame_id">frame_id</output_port>
+            <output_port name="child_frame_id">child_frame_id</output_port>
+            <output_port name="transform">transform</output_port>
+            <output_port name="x">x</output_port>
+            <output_port name="y">y</output_port>
+            <output_port name="z">z</output_port>
+            <output_port name="roll">roll</output_port>
+            <output_port name="pitch">pitch</output_port>
+            <output_port name="yaw">yaw</output_port>
+        </Action>
+    </TreeNodesModel>
+</root>

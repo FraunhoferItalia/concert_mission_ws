@@ -1,0 +1,5 @@
+<library path="libconcert_skills">
+  <class type="concert_skills::SkillLibrary" base_class_type="bt_skill::SkillLibraryBase">
+    <description>Plugin for loading all the skills of CONCERT.</description>
+  </class>
+</library>

@@ -1,0 +1,5 @@
+<library path="libstd_skills">
+  <class type="std_skills::SkillLibrary" base_class_type="bt_skill::SkillLibraryBase">
+    <description>Standard msg/srv skill library.</description>
+  </class>
+</library>

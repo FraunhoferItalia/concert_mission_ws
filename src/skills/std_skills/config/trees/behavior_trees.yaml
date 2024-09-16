@@ -1,0 +1,3 @@
+behavior_tree_definitions:
+    tree_1: "std_skills_test_tree.xml"
+  

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<root>
+    <TreeNodesModel>
+        <Action ID="SetBool">
+            <input_port name="data">child_frame_id</input_port>
+            <input_port name="service_name">service_name</input_port>
+        </Action>
+    </TreeNodesModel>
+</root>

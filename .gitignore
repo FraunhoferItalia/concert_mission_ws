@@ -1,0 +1,10 @@
+build/
+logs/
+log/
+install/
+devel/
+.catkin_tools/
+config/*
+src/_concert_demo/config/temp
+src/_concert_demo/config/rosbim_rviz_output.yaml
+/src/concert_mission_generator/src/concert_mission_generator/__pycache__

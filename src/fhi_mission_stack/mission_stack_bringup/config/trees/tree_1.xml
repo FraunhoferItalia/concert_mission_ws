@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<root BTCPP_format="4"  main_tree_to_execute="MainTree">
+    <BehaviorTree ID="MainTree">
+        <Sequence>
+            <Delay delay_msec="1000">
+                <AlwaysSuccess/>
+            </Delay>
+            <Action ID="PublishString" topic_name="test" message="Hello world!"/>
+            <AlwaysSuccess/>
+            <AlwaysSuccess/>
+            <Action ID="NavigateToPose" pose="[1.0;0.5;3.14]" action_name="navigate_to_pose"/>
+        </Sequence>
+    </BehaviorTree>
+</root>

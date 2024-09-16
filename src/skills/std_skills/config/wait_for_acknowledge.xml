@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<root>
+    <TreeNodesModel>
+        <Action ID="std_skills::WaitForAcknowledge">
+            <input_port name="service_name">Name of the Trigger service to be exposed</input_port>
+            <input_port name="topic_name">Name of the topic in which the data string has to be published</input_port>
+            <input_port name="data">String to be published on topic name</input_port>
+            <input_port name="timeout">Number of seconds to wait for before returning failure</input_port>
+        </Action>
+    </TreeNodesModel>
+</root>

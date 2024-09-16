@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<root>
+    <TreeNodesModel>
+        <Action ID="nav2_skills::Spin">
+            <input_port name="distance">Yaw angle to rotate.</input_port>
+            <input_port name="speed">Speed to be applied.</input_port>
+            <input_port name="time_allowance">Time allowed until timeout.</input_port>
+            <input_port name="action_name">Action name</input_port>
+        </Action>
+    </TreeNodesModel>
+</root>

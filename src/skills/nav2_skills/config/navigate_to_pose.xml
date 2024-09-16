@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<root>
+    <TreeNodesModel>
+        <Action ID="nav2_skills::NavigateToPose">
+            <input_port name="pose">Pose to be published</input_port>
+            <input_port name="action_name">Action name</input_port>
+        </Action>
+    </TreeNodesModel>
+</root>

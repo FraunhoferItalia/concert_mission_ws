@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<root>
+    <TreeNodesModel>
+        <Action ID="std_skills::packers::PoseStamped">
+            <input_port name="frame_id">frame_id</input_port>
+            <input_port name="pose">pose</input_port>
+            <output_port name="pose_stamped">pose_stamped</output_port>
+        </Action>
+    </TreeNodesModel>
+</root>

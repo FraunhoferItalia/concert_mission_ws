@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<root>
+    <TreeNodesModel>
+        <Action ID="std_skills::Trigger">
+            <input_port name="service_name">service_name</input_port>
+        </Action>
+    </TreeNodesModel>
+</root>
