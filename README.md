@@ -27,10 +27,10 @@ This workspace includes the mission tasks modelling and parametrization tools de
    vcs import < .repos
    ```
 
-4. Build the docker image:
+4. Build the docker images:
    
    ```
-   docker compose up --build
+   ./docker/docker_build.sh
    ```
 
 ## How to run
